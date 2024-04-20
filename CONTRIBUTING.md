@@ -7,17 +7,21 @@ Please follow this guide to make that PR the best that it can be!
 
 ## Guidelines
 
-* Write small commits with concise, descriptive messages.
-* Include tests for any new feature, and regression tests for any bug fix.
-* Write [es2015+ javascript][1].
-* Try to keep the code style consistent. Follow existing patterns.
-* Modify or add to the README if your feature needs instructions on how to use it.
+- Write small commits with concise, descriptive messages.
+- Include tests for any new feature, and regression tests for any bug fix.
+- Write [es2015+ javascript][1].
+- Try to keep the code style consistent. Follow existing patterns.
+- Modify or add to the README if your feature needs instructions on how to use it.
 
 ## Development
 
 Fork, then clone the repo:
 
     git clone https://github.com/your-username/bodybuilder.git
+
+Basically create a `branch from master` and work on that:
+
+    git checkout -b name_of_the_branch
 
 Install dependencies using npm (install [node][2] first if necessary).
 
